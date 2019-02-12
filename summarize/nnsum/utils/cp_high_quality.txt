@@ -1,0 +1,4 @@
+Copy high_quality files
+
+grep -lir '"quality": "high"' downloads/bbc/ | xargs mv -t high_quality/bbc
+grep -lir '"quality": "high"' downloads/guardian/ | xargs mv -t high_quality/guardian
